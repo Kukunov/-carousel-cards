@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Сайт про животных</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo/animal.png" widht="6" height="90" class="d-inline-block align-top" alt="">
+
+        </a>
+        <ul class="navbar-nav mr-auto text-light">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#"></a>
+            </li>
+
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="#slideShow"><img src="img/navbarimg/caqrousel1.png" width="30"
+                        height="30">Переход на карусель</a>
+                <a class="nav-link" href="#cards"><img src="img/navbarimg/cardinfo.png" width="30" height="30">Перекод
+                    на карточки</a>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="" widht="4" height="30" class="d-inline-block align-top"
+                        alt=""><img src="img/navbarimg/mle.png" width="30" height="30"> Раздел - млекопитающие</a>
+
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/navbarimg/fishic.png" widht="4" height="30"
+                        class="d-inline-block align-top" alt="">Раздел - рыбы</a>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/navbarimg/nasek.png" widht="4" height="30"
+                        class="d-inline-block align-top" alt="">Раздел - насекомые</a>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/navbarimg/plants.png" widht="4" height="30"
+                        class="d-inline-block align-top" alt="">Раздел - растения</a>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/navbarimg/interesting.png" widht="4" height="30"
+                        class="d-inline-block align-top" alt="">Раздел - ИНТЕРЕСНОЕ</a>
+
+            </li>
+
+            </li>
+        </ul>
+
+        <div class="row form-group">
+            <div class="col">
+                <input type="text" placeholder="Навигация по сайту" class="form-control">
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+        <div id="slideShow" class="carousel slide" data-interval="3000" data-keyboard="true" data-ride="true"
+            data-wrap="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img width="200" height="200" src="img/cardsimg/a1.jpg" alt="cat1">
+                </div>
+
+                <div class="carousel-item">
+                    <img width="280" height="200" src="img/cardsimg/a2.jpg" alt="cat2">
+                </div>
+
+                <div class="carousel-item">
+                    <img width="280" height="200" src="img/cardsimg/a3.jpg" alt="cat3">
+                </div>
+                <div class="carousel-item">
+                    <img width="280" height="200" src="img/cardsimg/a4.jpg" alt="cat3">
+                </div>
+
+            </div>
+            <a id="prev" class="carousel-control-prev" href="#slideShow" data-slide="prev"><span
+                    class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+            <a id="next" class="carousel-control-next" href="#slideShow" data-slide="next"><span
+                    class="carousel-control-next-icon" aria-hidden="true"></span></a>
+        </div>
+    </div>
+    <br><br>
+
+
+
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div id="cards"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a1.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Белочка</h5>
+                            <p class="card-text">Белочка сидит</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Обычная белка имеет длинное тело, пушистый хвост и длинные ушки.
+Уши белки крупные и вытянутые, иногда с кисточками на конце. 
+Лапки сильные, с крепкими и острыми когтями. 
+Благодаря сильным лапам грызуны так легко лазят по деревьям.">
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a2.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Енот</h5>
+                            <p class="card-text">Енот поднимает лапки</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Еноты являются хищными млекопитающими, принадлежащими к семейству собственно енотов, 
+которое включает в себя четыре вида этих зверьков 
+(далее мы опишем каждый вид подробнее). 
+Также близкими родственниками енотов являются енотовидные собаки 
+(их часто путают с енотами), носухи, какомицли и кинкажу. 
+А в число дальних родственников енота входит даже собака и панда.
+
+Наиболее распространенным среди енотов является енот-полоскун, 
+которого еще называют «медведем полоскуном» или «моющим медведем».">
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a3.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Собака</h5>
+                            <p class="card-text">Просто собака</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Собака (Canis lupus Familiaris) – животное, 
+которое приручено и одомашнено человеком еще в глубокой древности. 
+Первые археологические находки скелетов этого животного возле жилища человека, 
+обнаруженные на Евразийском континенте, относятся к эпохе мезолита. 
+Вероятнее всего, собака была первым домашним животным, 
+которое оказывало древнему человеку помощь на охоте.">
+
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a4.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Котейка</h5>
+                            <p class="card-text">Котейка, наелся и смотрит</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Кошка была одомашнена приблизительно 9,5 веков назад на Ближнем Востоке. 
+В Древнем Египте кошку отождествляли с Бастет – богиней солнечного и лунного света. 
+В Средневековье кошкам повезло меньше. 
+Их признали пособниками Сатаны и совершали над ними страшные и жестокие обряды. 
+Однако вся эта мистика и жуть в прошлом, и сейчас кошка – самое известное домашнее животное. 
+Игривый нрав, грация движений, присущие всем кошачьим, 
+неоспоримая красота и очень развитый интеллект делают кошку идеальным компаньоном человека.">
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a5.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Голубь</h5>
+                            <p class="card-text">Даже два голубя</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Длина крыла голубя составляет 20-27 см, вес колеблется в пределах от 200 до 650 г.
+Окрас голубей может быть совершенно разным. 
+Некоторые виды и породы голубей разноцветные, как попугаи, или же с хвостами как у павлинов. 
+Неудивительны розовые расцветки голубей, желтые, персиковые или кофейные. 
+Голуби могут быть одного цвета, разноцветными или иметь рисунок в своем оперении. 
+Есть виды с кучерявым оперением или же большим количеством перьев возле головы или лап.">
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <img class="card-img-top" src="img/cardsimg/a6.jpg" alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Карась</h5>
+                            <p class="card-text">Здоровенный</p>
+
+                        </div>
+                        <div class="card-header">
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true"
+                            data-placement="top" title="
+                            Карась (Carassius) — широко распространенный род рыб, 
+который относится к классу лечепёрые рыбы, отряду карпообразные, семейству карповые.
+Форма тела карася продолговатая или слегка округлая, туловище рыбы умеренно сплюснутое с боков и покрытое крупной, 
+гладкой на ощупь чешуей. Цвет карася в зависимости от видовой принадлежности может принимать различные оттенки 
+серебристого или золотистого. Спина рыбы довольно толстая, с высоким спинным плавником. 
+Длина карася может достигать 50-60 см, а вес рыбы составлять более 5 килограммов. 
+Голова рыбы небольшого размера с маленькими глазами и ртом, в котором глоточные зубы расположены в один ряд. 
+Примечательной особенностью является наличие в спинном и анальных плавниках колючих зазубренных лучей.
+Продолжительность жизни зависит от вида рыбы. Обыкновенный карась живет более 12 лет. 
+Серебряный карась живет 8-9 лет, но существуют особи, которые доживают и до 12 лет.
+
+">
+                            More info
+                        </button>
+                    </div>
+                </div>
+
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                    crossorigin="anonymous">
+                </script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous">
+                </script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                    crossorigin="anonymous">
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
