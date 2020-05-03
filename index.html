@@ -265,29 +265,132 @@
 Голова рыбы небольшого размера с маленькими глазами и ртом, в котором глоточные зубы расположены в один ряд. 
 Примечательной особенностью является наличие в спинном и анальных плавниках колючих зазубренных лучей.
 Продолжительность жизни зависит от вида рыбы. Обыкновенный карась живет более 12 лет. 
-Серебряный карась живет 8-9 лет, но существуют особи, которые доживают и до 12 лет.
-
-">
+Серебряный карась живет 8-9 лет, но существуют особи, которые доживают и до 12 лет.">
                             More info
                         </button>
                     </div>
                 </div>
-
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-                    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-                    crossorigin="anonymous">
-                </script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                    crossorigin="anonymous">
-                </script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                    crossorigin="anonymous">
-                </script>
             </div>
         </div>
-    </div>
+    </div><br><br>
+    <div class="container">
+        <div class="col-sm">
+            <div class="form">
+                <label for="animType">Пожалуйста, напишите вид вашего животного</label>
+                <input type="text" id="animType" class="form-control" placeholder="Кот, собака и т.д.">
+            </div><br>
+            <div class="form">
+                Пожалуйста, введите имя животного
+                <input type="text" class="form-control" id="textName" placeholder="Имя животного">
+            </div><br>
+            <div class="form">
+                Ведите возраст животного
+                <select class="form-control" id="age">
+                    <option>1 год</option>
+                    <option>2 года</option>
+                    <option>3 года</option>
+                    <option>4 года</option>
+                    <option>5 лет</option>
+                    <option>6 лет</option>
+                    <option>7 лет</option>
+                    <option>8 лет</option>
+                    <option>9 лет</option>
+                    <option>10 лет или более...</option>
+                </select>
+            </div><br>
+            <div class="container">
+                <div class="row"><label for="colorCheck">Выберите цвет шерсти животного</label></div>
+                <div class="col">
+                    <div class="form">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="colour" id="colourCheck" class="form-check-input" value="Черная">
+                            <label for="itemsCheck" class="form-check-label">
+                                Черный
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="colour" id="colorCheck" class="form-check-input" value="Серая">
+                            <label for="itemsCheck" class="form-check-label">
+                                Серый
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="colour" id="colorCheck" class="form-check-input" value="Белая">
+                            <label for="itemsCheck" class="form-check-label">
+                                Белый
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="colour" id="colorCheck" class="form-check-input"
+                                value="Коричневая">
+                            <label for="itemsCheck" class="form-check-label">
+                                Коричневый
+                            </label>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col">
+                    <div class="form">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="colour" id="colorCheck" class="form-check-input"
+                                value="Другой цвет">
+                            <label for="itemsCheck" class="form-check-label">
+                                Другой цвет<input name="otherCol" id="otherCol" class="form-control" type="text" placeholder="Укажите другой цвет...">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <div class="form">
+                Напишите краткое описание вашего животного
+                <textarea class="form-control" id="animInfo" rows="4"></textarea>
+            </div>
+        </div><br>
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div id="thanks"></div>
+            </div>
+        </div><br>
+        <div class="d-flex justify-content-center"><button class="btn btn-primary" id="otprInfo">Отправить</button>
+        </div>
+    </div><br>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        $("#otprInfo").click(function sendData2log() {
+            console.clear();
+            console.log('Вид животного: ' + $('#animType').val());
+            console.log('Имя животного: ' + $('#textName').val());
+            console.log('Возраст животного: ' + $('#age').val());
+            console.log('Цвет шерсти: ' + $('[name=colour]:checked').val());
+            console.log('Другой цвет шерсти: ' + $('#otherCol').val());
+            console.log('Краткое описание животного: ' + $('#animInfo').val());
+            $('#thanks').append("<div><h2>Спасибо за участие в опросе!</h2></div>")
+            return false;
+        })
+    </script>
+
 </body>
 
 </html>
